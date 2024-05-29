@@ -1,0 +1,120 @@
+<!DOCTYPE html> 
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> Conversor de Unidades </title>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    
+    <body>
+
+      <h1 class="titulo"> CONVERSOR DE UNIDADES </h1>
+
+      <div class="corpo">
+
+        <div class="bloco-conta">
+         <div class="temperatura">Temperatura:</div>
+
+        <input class="bloco-temperatura" id="temperatura" placeholder="Digite a temperatura">
+
+        <div class="de">De:</div>
+        <select name="temperatura" id="temperatura2">
+
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+
+        </select> <br>
+
+        <div class="para">Para:</div>
+        <select name="temperatura" id="temperatura3">
+
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+
+        </select> <br>
+
+        <button class="converter__1" onclick=" converter1() ">CONVERTER</button> <br><br>
+
+        <div class="resultado">Resultado:</div>
+        <input class="resultado2" id="resultado">
+
+      </div>
+
+        
+      <div class="bloco-conta">
+        
+        <div class="comprimento">Comprimento:</div>
+
+        <input class="bloco-comprimento" id="comprimento" placeholder="Digite o comprimento">
+
+
+        <div class="de2">De:</div>
+
+        <select name="comprimento" id="comprimento2">
+
+          <option value="metros">Metros</option>
+          <option value="pes">Pés</option>
+
+        </select> <br>
+
+        <div class="para2">Para:</div>
+
+        <select name="comprimento" id="comprimento3">
+
+          <option value="metros">Metros</option>
+          <option value="pes">Pés</option>
+
+        </select> <br>
+
+        <button  class="converter__2" onclick=" converter2() ">CONVERTER</button> <br><br>
+
+        <div class="resultado">Resultado:</div>
+        <input class="resultado2" id="resultado2">
+
+        </div>
+
+        <div class="bloco-conta">
+
+        <div class="peso">Peso:</div>
+
+        <input class="bloco-peso" id="peso" placeholder="Digite o peso">
+
+        <div class="de3">De:</div>
+
+        <select name="peso" id="peso2">
+
+          <option value="quilograma">Quilograma</option>
+          <option value="libra">Libra</option>
+
+        </select> <br>
+
+        <div class="Para3">Para:</div>
+
+        <select name="peso" id="peso3">
+
+          <option value="quilograma">Quilograma</option>
+          <option value="libra">Libra</option>
+
+        </select> <br>
+
+        <button  class="converter__3" onclick=" converter3() ">CONVERTER</button> <br><br>
+
+        <div class="resultado">Resultado:</div>
+        <input class="resultado2" id="resultado3">
+
+        </div>
+
+    </div>
+</body>
+
+<script src="java.js"></script>
+
+</html>
